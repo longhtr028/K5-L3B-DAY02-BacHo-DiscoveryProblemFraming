@@ -16,7 +16,7 @@
 
 ## 2. Scan problem (CP1)
 
-Hải scan 9 problem, vượt mức tối thiểu 5, trải đủ 4 lăng kính.
+Mình scan 10 problem, vượt mức tối thiểu 5, trải đủ 4 lăng kính.
 
 | # | Lăng kính | Job Story | Ai chịu ảnh hưởng? | Dấu hiệu thật |
 |---:|---|---|---|---|
@@ -29,6 +29,7 @@ Hải scan 9 problem, vượt mức tối thiểu 5, trải đủ 4 lăng kính.
 | 7 | Pain từ người khác | Khi backend đổi API (tên field, format response) mà không báo trước, team FE muốn biết sớm thay đổi, để không phát hiện lỗi lúc QA hoặc demo | FE dev, BE dev, QA | Khoảng 2 lần/sprint, mỗi lần khoảng 45 phút debug mới ra nguyên nhân |
 | 8 | Cần đọc, tổng hợp nhiều thông tin | Khi UI chỉ lỗi trên một số trình duyệt/thiết bị, tôi muốn tìm ra nguyên nhân từ console, network log và bug report của QA, để sửa đúng chỗ | FE dev, QA, người dùng | Khoảng 40 phút/bug, khoảng 4 bug/tuần |
 | 9 | Lặp lại | Khi review pull request của đồng đội FE, tôi muốn biết nhanh thay đổi ảnh hưởng tới màn hình nào, để duyệt đúng hạn mà không lọt lỗi UI | FE team, reviewer | Khoảng 30 phút/PR, khoảng 4 PR/tuần |
+| 10 | Cần đọc, tổng hợp nhiều thông tin | Khi muốn nâng version một thư viện trong project (ví dụ React), tôi muốn biết các thư viện khác (Tailwind, router, UI kit) phải lên version nào để tương thích, để code vẫn build và chạy được sau khi nâng | FE dev | Khoảng 2 giờ/lần, khoảng 1 lần/tháng; phải đọc docs/changelog của khoảng 4 gói trên web, thử cài đi cài lại vì xung đột version mới chạy được |
 
 **AI gợi ý thêm:** 
 
