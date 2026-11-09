@@ -10,7 +10,7 @@
 - MSSV: 2A202603909
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: BacHo
-- Link repo nhóm:
+- Link repo nhóm: https://github.com/longhtr028/K5-L3B-DAY02-BacHo-DiscoveryProblemFraming
 
 ---
 
@@ -149,16 +149,16 @@ Sau 3 bài:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 card: Vinmotion (#10), ghép report nhóm Big Data (#11), đọc bài báo NCKH (#12). Pitch kỹ nhất card #11 | Card #11 vào shortlist, đạt điểm cao nhất (33/35) và được chọn làm candidate của nhóm |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt cho Hải (card #1, đọc đề và tự kiểm bài lab): "SUBMISSION.md đã có checklist, vậy pain còn lại nằm ở đọc đề hay ở tự kiểm?" | Nhóm thấy phần lớn pain của #1 đã giải được bằng checklist có sẵn (khả năng chỉ dừng ở Rule), nên loại #1 khỏi lựa chọn cuối |
+| Nhận phản biện | Câu hỏi tôi nhận được: (1) Card #11: "Nếu mọi người nộp đúng hạn, đúng format thì bước đọc có còn là bottleneck không?" (2) Card #10: "Dữ liệu nội bộ công ty, nhóm có kiểm chứng với người khác được không?" (3) Card #12: "Khác gì card #8 của Long? 3–4 tuần/lần có đủ impact không?" | Tôi đã sửa gì: (1) đưa thành giả định #3 trong Assumption Map và câu hỏi số 3 khi phỏng vấn; (2) đồng ý, tự rút #10 vì chỉ mình tôi biết quy trình; (3) đồng ý gộp #12 với #8 thành cluster A, để dành cho vòng sau |
+| Gom cluster / cây OST | Cung cấp dữ liệu cho cluster C (ghép phần việc của nhiều người) và 4 opportunity A–D của cây OST từ Problem Card #2 (nộp trễ, sai format, đọc và hỏi lại, nội dung mâu thuẫn) | Cây OST của nhóm dùng đúng 4 pain này làm nhánh |
+| Chọn candidate problem | Đưa ra bằng chứng hành vi đã xảy ra cho #11: lần gần nhất mất ~3 tiếng, 2/6 người nộp trễ 1 ngày, 1/6 sai format mất 45' sửa | Đây là lý do chính để nhóm chọn #11 thay vì #1 (bản nháp đầu đề xuất #1) |
+| Kiểm chứng / research | Soạn 3 câu hỏi theo The Mom Test và phỏng vấn 1 Data Analyst từng ghép report nhóm (nhắn tin, ngày 9/11/2026); ghi lại nguyên văn câu trả lời vào `report/assets/cp4-interview-snapshot-1.md` | Phỏng vấn phản bác giả định #2: bottleneck không phải "đọc và hỏi lại" mà là đồng bộ số liệu, biểu đồ và viết lại insight. Nhóm đổi bottleneck và thu hẹp actor thành "người ghép report có phân tích dữ liệu" |
+| Quy trình nhóm | Cung cấp quy trình 5 bước và thời gian từng bước của report Big Data (ước lượng từ tổng ~180') | Là một trong 2 nguồn của quy trình hiện tại ở mục 4.1 (ký hiệu "TA") |
+| Problem Statement | Cung cấp baseline 180' và số liệu Impact (2/6 trễ hạn, 45' sửa format) | Dùng trong Success Metric và Impact của v0 và v1 |
+| Mức can thiệp AI | Cung cấp bằng chứng "đã thử No AI mà chưa đủ" từ phỏng vấn (template chung, Docs chung + deadline sớm 1 ngày) | Là lập luận chính cho mục "Vì sao không chọn mức đơn giản hơn" ở 6.2 |
+| Quyết định | Nhận làm người chạy pilot ở lần report nhóm kế tiếp: bấm giờ từng bước, so danh sách mình tự tìm với danh sách của AI | Pilot ở mục 8.2 dựa trên report của tôi; report cũ của tôi dùng để làm bộ test có cài sẵn lỗi |
 
 ---
 
@@ -166,35 +166,55 @@ Sau 3 bài:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Sau khi tự scan 5 ý (#1–#5), nhờ AI gợi ý thêm theo bối cảnh của tôi (NEU, VinUni, Vinmotion, NCKH) | Nhắc tôi nhớ ra 4 việc đã thật sự gặp (#7–#10). Câu hỏi của AI về số lần trùng lịch giúp tôi tự nhớ ra #6 | Gợi ý "viết trích dẫn, danh mục tài liệu tham khảo cho NCKH", một việc tôi không thật sự gặp. Các ý giữ lại chưa có số liệu thật | Bỏ ý trích dẫn. Viết lại #7–#10 bằng số liệu của chính tôi (tiêu chí 10 bước / ~2', 30' trước deadline, 2 người trễ 1 ngày, 45' sửa format) và ghi rõ "ý từ AI" |
+| CP2 Problem Card | Cho AI đóng vai PM hoài nghi phản biện 3 card | Phát hiện lỗi tính toán ở card #1 (3'/lượt không khớp tổng các bước); chỉ ra card #2 có thể giải bằng No AI; chỉ ra thời gian từng bước chỉ là ước lượng | Ở card #3 AI hơi vội khi cho rằng chia bài cho 3 người là đủ, trong khi bước đọc phần phương pháp vẫn là bottleneck của từng người | Tính lại card #1 (~5,6'/lượt, ~21 lượt/ca); đổi cảm nhận nhanh card #2 sang "No AI (chính)"; ghi "ước lượng" trong card. Card #3: thêm phương án chia bài nhưng vẫn giữ giả thuyết AI cho bước đọc phương pháp |
+| CP4 Research | Không tự dùng AI. Nhóm tìm các công cụ ở mục 3.3 của báo cáo nhóm | — | — | Phỏng vấn tự làm hoàn toàn, không dùng AI đóng vai người dùng. Câu trả lời ghi nguyên văn |
+| CP5 Quy trình | Không tự dùng AI. Tôi cung cấp số liệu, nhóm vẽ quy trình | — | — | — |
+| CP5–6 Problem Statement | Nhóm dùng AI phản biện Problem Statement v0 theo prompt ở worksheet (mục 5 báo cáo nhóm) | Chỉ ra metric chỉ đo tốc độ; 2 baseline chênh nhau gấp 2; con số "4–7 người" chưa có nguồn | Bản phản biện AI viết sẵn cả cột "đồng ý" thay nhóm | Đọc lại từng ý: đồng ý thêm metric "số chênh lệch còn sót" ở v1 và bỏ "4–7 người" vì người được phỏng vấn chưa nói số thành viên |
+| CP6 Mức can thiệp / quyết định | Không tự dùng AI | — | — | — |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5).
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Nghe top 3 problem của các bạn, tôi nhận ra một problem tốt không nằm ở impact nghe lớn, mà ở chỗ có bằng chứng hành vi và kiểm chứng được. Card #9 về hộ kinh doanh kê khai thuế có impact rộng nhất nhưng vẫn bị loại vì thời gian từng bước mới là ước tính, và nhóm không phỏng vấn được chủ hộ thật. Cũng vì lý do đó, tôi tự rút card Vinmotion của mình, vì chỉ mình tôi biết quy trình.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Bản thân tôi từng "solution-first": khi viết Problem Card #2, tôi đã ghi sẵn giả thuyết "AI tóm tắt từng phần" khi chưa biết bottleneck thật. Đến lúc dựng cây OST, nhóm gạch ý này đi vì đó là solution đội lốt opportunity, chỉ giữ lại các pain: nộp trễ, sai format, phải đọc và hỏi lại, nội dung mâu thuẫn.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Lần tôi đổi ý rõ nhất là sau phỏng vấn. Trước đó tôi tin bước tốn nhất là đọc và hỏi lại người viết. Nhưng người Data Analyst tôi hỏi không hỏi lại ai, mà tự chạy lại code để xuất biểu đồ và tự viết lại toàn bộ insight vì phần nhận xét không nối logic từ EDA sang Model.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Con số 5–6 tiếng, gấp đôi 180 phút của tôi, cũng làm tôi bất ngờ, và nó buộc nhóm đổi bottleneck sang đồng bộ số liệu và viết lại insight.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Điều khó nhất khi viết Problem Statement là Success Metric: cả hai baseline đều theo trí nhớ nên phải bấm giờ thật mới có ý nghĩa. Còn "insight nối logic" khó đo trực tiếp, nhóm chỉ đo gián tiếp qua số chênh lệch còn sót và số đoạn phải viết lại.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ không chỉ phỏng vấn một người bạn quen, vì người quen dễ trả lời theo hướng tôi mong đợi. Tôi sẽ hỏi thêm 2–3 người không quen nhóm, và hỏi thẳng họ muốn AI hỗ trợ (augment) hay giao hẳn việc (automate).
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Tóm lại, actor của nhóm là sinh viên ghép report có phân tích dữ liệu, với bottleneck là đồng bộ số liệu, biểu đồ và viết lại insight (3–4 tiếng). Metric là thời gian ghép không quá 90 phút và 0 chênh lệch số liệu còn sót. Boundary là AI không sửa file, không viết câu chữ, chỉ liệt kê chỗ kết luận mâu thuẫn kèm trích dẫn để người ghép tự kiểm. Mức can thiệp là Workflow, trong đó No AI và Rule làm phần lớn việc. Quyết định là Go phạm vi nhỏ, pilot ở lần report kế tiếp của tôi, kèm ba ngưỡng dừng: No AI + Rule đã đủ thì không thêm AI, AI bỏ sót hai lần liên tiếp thì bỏ bước AI, và giảng viên không cho dùng AI thì No-Go phần AI.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Báo cáo nhóm: [report/team/group_report.md](../team/group_report.md)
+- Interview snapshot người thứ 1 (tôi phỏng vấn): [report/assets/cp4-interview-snapshot-1.md](../assets/cp4-interview-snapshot-1.md)
+- Worksheet lab: [docs/01-worksheet.md](../../docs/01-worksheet.md)
+- Alan Klement, Intercom — Job Stories: https://www.intercom.com/blog/accidentally-invented-job-stories/
+- Rob Fitzpatrick — The Mom Test: https://www.momtestbook.com/
+- Teresa Torres — The Interview Snapshot: https://www.producttalk.org/interview-snapshot/
+- Teresa Torres — Opportunity Solution Trees: https://www.producttalk.org/opportunity-solution-trees/

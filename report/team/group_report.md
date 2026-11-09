@@ -20,10 +20,10 @@ Nhóm 4 người, 12 candidate (top 3 của mỗi người).
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Hải | Khi bắt đầu lab mới, muốn biết ngay phải nộp file gì, đặt tên ra sao, để không bị trừ điểm cấu trúc | Học viên K5 | Tự dò lại rubric/checklist trước khi nộp, khoảng 15 phút | SUBMISSION.md đã có checklist, pain còn lại nằm ở đọc đề hay tự kiểm? (Tuấn Anh, dự kiến) |
+| 1 | Hải | Khi bắt đầu lab mới, muốn biết ngay phải nộp file gì, đặt tên ra sao, để không bị trừ điểm cấu trúc | Học viên K5 | Tự dò lại rubric/checklist trước khi nộp, khoảng 15 phút | SUBMISSION.md đã có checklist, pain còn lại nằm ở đọc đề hay tự kiểm? (Tuấn Anh) |
 | 2 | Hải | Khi backend đổi API không báo, FE muốn biết sớm để không lỗi lúc QA/demo | FE dev | Hỏi và chờ BE xác nhận, khoảng 20 phút | Team đã có API spec chưa? Nếu có thì pain còn không? |
 | 3 | Hải | Khi dựng màn hình từ Figma, muốn đúng ngay lần đầu để không bị designer trả lại | FE dev, designer | Sửa theo review, khoảng 2 vòng, 30 phút | Lỗi do FE dựng sai hay do design thay đổi? |
-| 4 | Giang | Khi dùng nhiều API AI, muốn biết nhanh tổng token và chi phí trong ngày để không vượt ngân sách | Sinh viên/dev làm dự án AI | Gom số từ nhiều dashboard, khoảng 10 phút | Lần gần nhất bạn thật sự vượt ngân sách là khi nào? (Hải, dự kiến) |
+| 4 | Giang | Khi dùng nhiều API AI, muốn biết nhanh tổng token và chi phí trong ngày để không vượt ngân sách | Sinh viên/dev làm dự án AI | Gom số từ nhiều dashboard, khoảng 10 phút | Lần gần nhất bạn thật sự vượt ngân sách là khi nào? (Hải) |
 | 5 | Giang | Khi đi qua cầu giờ cao điểm, muốn biết điểm kẹt để đổi lộ trình | Người đi học/làm ở HN | Tìm tin kẹt xe trong các hội nhóm | Dữ liệu realtime lấy ở đâu, nhóm có tiếp cận được không? |
 | 6 | Giang | Khi xe máy khó nổ buổi sáng, muốn biết kiểm tra bộ phận nào trước | Người đi xe số cũ | Tra cứu chung chung, không biết bắt bệnh từ đâu | Đây là thiếu thông tin hay thiếu kỹ năng sửa xe? |
 | 7 | Long | Khi làm việc ngoài giờ lên lớp, giáo viên muốn không phải làm lại phần lặp lại | Giáo viên | Soạn giáo án, khoảng 300 phút/tuần | Nhóm không có ai là giáo viên, CP4 phỏng vấn ai? |

@@ -3,7 +3,7 @@
 | Trường | Nội dung |
 |---|---|
 | Người được hỏi | Bạn của Tuấn Anh (ẩn tên), Data Analyst (DA) đang làm việc tại một công ty cung cấp giải pháp công nghệ; người phụ trách gom và ghép report nhóm môn Phân tích dữ liệu |
-| Hình thức | *(điền: gặp trực tiếp / nhắn tin / gọi điện)* |
+| Hình thức | Nhắn tin |
 | Ngày phỏng vấn | 9/11/2026 |
 | Sự việc được kể | Lần ghép report gần nhất: thứ Năm tuần trước (5/11/2026) |
 | Người hỏi | Trần Tuấn Anh (2A202603909) |
