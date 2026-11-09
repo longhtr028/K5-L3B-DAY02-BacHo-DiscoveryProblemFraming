@@ -8,7 +8,7 @@
 - Tên nhóm: BacHo
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): *(đề xuất, chờ nhóm chốt)* Sinh viên phụ trách ghép report nhóm mất khoảng 3 tiếng sát deadline để thu, đọc, hỏi lại và sửa các phần của thành viên thành một report thống nhất
-- Quyết định cuối: Go / Not Yet / No-Go
+- Quyết định cuối: *(đề xuất, chờ nhóm chốt)* Go, phạm vi nhỏ: pilot No AI + Rule trước, AI chỉ ở bước đọc chéo phát hiện mâu thuẫn (xem mục 8)
 
 ---
 
@@ -74,7 +74,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 **Vì sao chọn:**
 
 - **Bằng chứng là hành vi đã xảy ra:** lần gần nhất mất khoảng 3 tiếng; 2/6 người nộp trễ 1 ngày dù đã giục; 1/6 nộp sai format, mất 45 phút sửa (CP1 #4, #10 và Problem Card #2 của Tuấn Anh).
-- **Dễ kiểm chứng ở CP4:** hầu như sinh viên nào cũng từng làm report nhóm, nên phỏng vấn được bạn học ở nhóm khác về lần ghép report gần nhất.
+- **Dễ kiểm chứng ở CP4:** hầu như sinh viên nào cũng từng làm report nhóm, nên dễ tìm người ngoài nhóm để hỏi về lần ghép report gần nhất.
 - **So sánh được cả 4 mức:** trễ hạn và sai format có thể giải bằng No AI/Rule (template, deadline nội bộ); bước đọc hiểu và phát hiện mâu thuẫn mới là chỗ cần cân nhắc Workflow. Bài có khả năng ra kết luận "phần lớn không cần AI", đúng tinh thần lab.
 - **Cả nhóm hiểu domain:** cả 4 người đều đang làm báo cáo nhóm (chính lab này).
 
@@ -104,9 +104,9 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | 5 | Nội dung các phần lấy ra dễ dàng (đều viết trên Google Docs) | Feasibility | 3 | 4 | — |
 | 6 | Giảng viên/môn học cho phép dùng công cụ AI hỗ trợ đọc và tổng hợp khi làm report | Viability | 4 | 2 | Hỏi sau lab |
 
-Giả định nhóm kiểm chứng trong buổi này: #1, #2, #3.
+Giả định nhóm kiểm chứng trong buổi này: #1, #2, #3. Sau phỏng vấn người thứ 1: #1 và #3 có tín hiệu xác nhận, #2 có tín hiệu phản bác (xem 3.2).
 
-**Câu hỏi phỏng vấn (theo The Mom Test, hỏi bạn học ở nhóm khác từng ghép report nhóm):**
+**Câu hỏi phỏng vấn (theo The Mom Test, hỏi sinh viên ngoài nhóm từng ghép report nhóm):**
 
 1. Lần gần nhất bạn ghép report nhóm, bạn đã làm những bước nào, từ lúc thu bài đến lúc nộp?
 2. Bước nào mất nhiều thời gian nhất? Khoảng bao lâu? Cả lần đó mất tổng cộng bao lâu?
@@ -114,26 +114,33 @@ Giả định nhóm kiểm chứng trong buổi này: #1, #2, #3.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: *(Phỏng vấn / Survey — điền sau khi làm)*
+Cách đã dùng: Phỏng vấn theo The Mom Test (câu hỏi ở mục 3.1). Đã phỏng vấn 1 người, ngày 9/11/2026, người phỏng vấn: Tuấn Anh. *(Ghi thêm hình thức: trực tiếp / nhắn tin / gọi.)*
 
-Interview snapshot — người thứ 1 (làm tương tự cho người 2, 3 hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+Interview snapshot — người thứ 1 (câu trả lời nguyên văn: [cp4-interview-snapshot-1.md](../assets/cp4-interview-snapshot-1.md)):
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Bạn của Tuấn Anh (sinh viên), phụ trách gom và ghép report nhóm môn Phân tích dữ liệu |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Phần nhận xét dữ liệu bị rời rạc, không nối tiếp logic từ EDA sang Model, nên người tổng hợp vẫn phải ngồi viết lại toàn bộ phần insight." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Thứ Năm tuần trước (5/11/2026), ghép report môn Phân tích dữ liệu. Các bước: (1) nhắc các bạn push code và phần phân tích lên Google Drive/GitHub nhóm; (2) kiểm biểu đồ, KPI/metric và nhận xét của từng bạn có khớp với bộ dữ liệu chung không; (3) ghép vào Google Docs, căn lại biểu đồ cho nét, chuẩn hóa font, bảng biểu, viết lại phần giải thích để EDA, Modeling, Insight nối tiếp logic; (4) kiểm tổng thể lần cuối để tránh chênh lệch số liệu giữa các phần, đảm bảo kết luận trả lời đúng mục tiêu; (5) xuất PDF nộp |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đã thử 2 cách: (a) template chung cho biểu đồ và định dạng (bảng màu chart, font, mẫu bảng): hình thức đỡ hơn một chút nhưng các bạn vẫn quên áp dụng khi export ảnh; (b) mỗi người tự đưa phần phân tích vào Google Docs chung trước deadline 1 ngày: vẫn có người trễ hạn, và nhận xét vẫn rời rạc. Người ghép tự chạy lại code để xuất ảnh nét hơn và tự viết lại insight |
+| Mất bao lâu, bao lần? | Tổng 5–6 tiếng từ lúc giục gom bài đến lúc nộp. Riêng bước sửa biểu đồ, hình ảnh và đồng bộ logic dữ liệu giữa các phần: 3–4 tiếng (theo lời kể, chưa bấm giờ) |
+| Insight / opportunity rút ra | Bottleneck không nằm ở việc "đọc và hỏi lại người viết" như nhóm giả định, mà ở **đồng bộ số liệu, biểu đồ và nối logic insight giữa các phần**. Người ghép không hỏi lại mà tự chạy lại code và viết lại. Template và Docs chung chỉ giải được một phần hình thức |
+
+*(Snapshot người thứ 2, 3: thêm bảng tương tự hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`.)*
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Phỏng vấn | 1 | Tổng 5–6 tiếng, cao hơn nhiều so với ngưỡng 90 phút (giả định #1). Đã thử template chung và Docs chung + deadline sớm 1 ngày nhưng vẫn phải viết lại insight (giả định #3). Vẫn có người trễ hạn dù đã đặt deadline sớm | Bước tốn nhất **không phải** đọc và hỏi lại người viết (giả định #2 sai một phần): người ghép không hỏi lại mà tự chạy lại code, sửa biểu đồ và viết lại insight. Template chung **có** giúp phần hình thức "đỡ hơn một chút", nên một phần pain giải được không cần AI |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** *(điền sau khi phỏng vấn)*
+**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+- **Đổi bottleneck:** từ "đọc từng phần và hỏi lại người viết" sang "**đồng bộ số liệu, biểu đồ giữa các phần và viết lại insight để EDA → Model → Insight nối tiếp logic**" (3–4 tiếng/lần theo người được hỏi).
+- **Thu hẹp actor:** từ "người ghép report nhóm nói chung" sang "**người ghép report nhóm có phân tích dữ liệu** (code, biểu đồ, metric)", khớp với cả report Big Data của Tuấn Anh và report Phân tích dữ liệu của người được hỏi.
+- **Tách phần No AI:** lỗi hình thức (font, màu chart, ảnh mờ) và trễ hạn là vấn đề quy trình nhóm, đưa vào phương án không dùng AI (template + quy định export ảnh, deadline nội bộ). Phần cần cân nhắc AI chỉ còn: phát hiện chênh lệch số liệu giữa các phần và nối logic insight.
+- **Giả định #2** chuyển sang "đã có bằng chứng phản bác"; cần thêm 1–2 phỏng vấn để xác nhận bottleneck mới.
 
 ### 3.3. Research giải pháp đã có
 
@@ -157,39 +164,63 @@ Câu hỏi còn mở cho phỏng vấn: sau khi áp dụng template, bước đ�
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Gộp từ 2 nguồn: Problem Card #2 của Tuấn Anh (report Big Data, 7 người) và phỏng vấn người thứ 1 (report Phân tích dữ liệu). Thời gian của Tuấn Anh là ước lượng từ tổng khoảng 180 phút. Người được phỏng vấn chỉ nêu tổng 5–6 tiếng và riêng bước 3+4 là 3–4 tiếng.
 
 ```text
+HIỆN TẠI — 5 bước, 5/5 thủ công
+Tuấn Anh: khoảng 180 phút (chưa tính 1 ngày chờ người trễ) · Người phỏng vấn: 5–6 tiếng
 
+[1 Nhắc + thu các phần: 10'] → (chờ người nộp trễ, có lần 1 ngày)
+→ [2 Đọc từng phần, đối chiếu số liệu/biểu đồ với dữ liệu chung, hỏi lại: 80']
+→ [3 Sửa format, chạy lại code xuất lại biểu đồ: 45']           ┐
+→ [4 Viết lại insight, đoạn nối EDA → Model → Insight: 35']     ┘ ← BOTTLENECK (PV: 3–4 tiếng)
+→ [5 Rà soát số liệu toàn bài, xuất PDF, nộp: 10']
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Người ghép → các thành viên | Phân công, deadline | Các phần (Docs, code, ảnh biểu đồ) trên Drive/GitHub | 10' + chờ; 2/6 người trễ 1 ngày (TA) | Handoff: thành viên → người ghép. Deadline sớm 1 ngày vẫn có người trễ (PV) |
+| 2 | Người ghép | Các phần, bộ dữ liệu chung | Danh sách chỗ chưa rõ, chỗ số liệu lệch | 80' (TA, ước lượng) | Bước này PV gộp vào kiểm số liệu; PV không nói là có hỏi lại người viết |
+| 3 | Người ghép | Ảnh biểu đồ mờ, sai màu; code của thành viên | Biểu đồ nét, cùng style; font, bảng thống nhất | 45' (TA) | Template chung có giúp "đỡ hơn một chút" nhưng thành viên quên áp dụng khi export (PV) |
+| 4 | Người ghép | Phần nhận xét rời rạc, có chỗ giải thích sai bản chất chỉ số | Insight viết lại, nối logic giữa các phần | 35' (TA) | PV: bước 3+4 mất 3–4 tiếng; phải "viết lại toàn bộ phần insight" |
+| 5 | Người ghép | Report đã ghép | File PDF nộp | 10' (TA) | Kiểm lần cuối chênh lệch số liệu, kết luận có trả lời đúng mục tiêu không |
 
-**Bottleneck chính:**
+Tần suất: mỗi môn có report nhóm, khoảng 1–2 lần/môn/kỳ (ước lượng, chưa kiểm chứng).
+
+**Bottleneck chính:** Bước 3 + 4: **đồng bộ số liệu, biểu đồ giữa các phần và viết lại insight** cho nối tiếp logic. Theo người được phỏng vấn, bước này mất 3–4 tiếng trên tổng 5–6 tiếng. Ở report của Tuấn Anh, bước 2 (80') cũng tốn nhiều, nhưng phỏng vấn đã phản bác giả định "tốn nhất là đọc và hỏi lại" (xem 3.2).
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
-
 ```text
+TƯƠNG LAI — 6 bước, kỳ vọng khoảng 90 phút, 3/6 bước thủ công
 
+[0 Trước khi làm: template Docs + style biểu đồ chung + bảng "Số liệu chính"]   ← NO AI (quy định nhóm)
+→ [1 Thành viên nộp: phần viết + biểu đồ xuất từ hàm vẽ chung + điền số vào bảng chung]
+                                                                    ← RULE (hàm vẽ/style file, nhắc deadline tự động)
+→ [2 Kiểm số liệu từng phần với bảng "Số liệu chính": 5']           ← RULE (so khớp số; nếu lệch → trả lại thành viên)
+→ [3 AI đọc cả report + bảng số liệu, liệt kê: 2']                  ← AI
+      (a) chỗ số liệu/kết luận mâu thuẫn giữa các phần, có trích dẫn đoạn gốc
+      (b) chỗ đứt logic EDA → Model → Insight, gợi ý câu nối
+→ [4 Người ghép kiểm từng cảnh báo với bản gốc, viết lại insight: 60']  ← CON NGƯỜI
+→ [5 Rà soát lần cuối, xuất PDF, nộp: 10']                          ← CON NGƯỜI
+
+BOUNDARY: AI không tự sửa file report, không đổi số liệu, không viết kết luận
+          không có trong phần của thành viên. AI chỉ liệt kê và gợi ý.
+PHƯƠNG ÁN QUAY VỀ: AI báo sai nhiều hoặc không dùng được → bỏ bước 3,
+          người ghép đối chiếu thủ công bằng bảng "Số liệu chính" (bước 2 vẫn chạy).
 ```
+
+Bước 0–2 giải phần "hình thức" (ảnh mờ, màu lộn xộn, số lệch) mà không cần AI. Template giấy trước đây không đủ vì thành viên quên áp dụng khi export ảnh, nên nhóm chuyển sang **hàm vẽ dùng chung** (style file): thành viên gọi hàm là ảnh đúng style, không cần nhớ quy định.
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 5 | 6 (có bước 0 làm 1 lần đầu môn) | Thêm bước chuẩn bị, bớt việc sửa tay |
+| Tổng thời gian | 180' (TA) / 5–6 tiếng (PV) | khoảng 90' | Target chính: không quá 90'. Số "sau" là kỳ vọng, chưa đo |
+| Số bước thủ công | 5/5 | 3/6 (bước 0, 4, 5) | Người ghép vẫn viết lại insight và duyệt |
+| Bottleneck chính | Đồng bộ số liệu, biểu đồ + viết lại insight (3–4 tiếng) | Người ghép kiểm cảnh báo + viết insight (khoảng 60') | Chấp nhận được vì đây là điểm kiểm soát chất lượng |
+| Rủi ro mới phát sinh | — | AI bỏ sót mâu thuẫn; AI bịa mâu thuẫn không có; thành viên ỷ lại, viết nhận xét kém hơn | Xử lý bằng bảng số liệu (Rule) chạy trước AI + tiêu chí đánh giá ở mục 7 |
 
 ---
 
@@ -197,16 +228,21 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Sinh viên phụ trách ghép report nhóm có phần phân tích dữ liệu (code, biểu đồ, metric), nhóm 4–7 người |
+| **Quy trình** | 1–2 ngày trước deadline: thu các phần → đọc, đối chiếu số liệu → sửa format và biểu đồ → viết lại insight, đoạn nối → rà soát, xuất PDF, nộp |
+| **Bottleneck** | Đồng bộ số liệu, biểu đồ giữa các phần và viết lại insight để EDA → Model → Insight nối tiếp logic: 3–4 tiếng/lần (1 người được phỏng vấn); khoảng 80' (TA, ước lượng) |
+| **Impact** | 3–6 tiếng/lần dồn vào một người, sát deadline; 2/6 người nộp trễ 1 ngày làm dời việc ghép; nếu sót chênh lệch số liệu thì report nộp có kết luận mâu thuẫn |
+| **Success Metric** (baseline → target, cách đo) | Thời gian ghép: 180' (TA) / 5–6 tiếng (PV), đều theo trí nhớ → không quá 90'. Đo bằng người ghép tự bấm giờ từng bước ở lần report nhóm kế tiếp |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | Người ghép chịu trách nhiệm cuối với mọi số liệu và kết luận trong bản nộp. Không thay đổi số liệu hay kết luận của thành viên mà không đối chiếu với dữ liệu/code gốc. Không có gì được nộp khi người ghép chưa rà soát |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+*(Bản nháp phản biện do AI đưa ra theo prompt ở worksheet CP5. Nhóm cần đọc lại, tự quyết đồng ý hay không và sửa cột này.)*
+
+- **Metric chỉ đo tốc độ, không đo chất lượng:** ghép nhanh hơn nhưng còn sót số lệch thì sao? → Đồng ý, thêm metric "số chênh lệch số liệu còn sót khi nộp" ở v1.
+- **Baseline của 2 nguồn chênh nhau gấp 2 (180' vs 5–6 tiếng)**, đều là trí nhớ, nhóm khác nhau, môn khác nhau. → Đồng ý, ghi rõ là ước lượng; lần report tới bấm giờ từng bước để có baseline thật.
+- **Actor "nhóm 4–7 người" lấy từ đâu?** → Đồng ý một phần: 7 là nhóm Big Data của TA; người được phỏng vấn chưa nói số thành viên. Cần hỏi lại.
+- **Nguyên nhân gốc có thể là thành viên viết nhận xét kém**, không phải khâu ghép. → Đồng ý một phần: đưa "mỗi phần kèm 3 dòng: số liệu chính, kết luận, nối với phần trước" vào bước No AI.
 
 ---
 
@@ -214,38 +250,43 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài của nhóm nằm ở ô: **Độ phức tạp thấp–trung bình × độ mơ hồ cao (ở 1 bước)** → Workflow có AI ở một bước.
 
 Vì sao:
+
+- Bài có 2 việc con với độ mơ hồ khác nhau:
+  - **Kiểm số liệu lệch:** độ mơ hồ **thấp**, có đúng/sai rõ (số trong phần viết khớp hay không khớp bảng chung). Rule làm được.
+  - **Nối logic insight, phát hiện kết luận mâu thuẫn:** độ mơ hồ **cao**, nhiều cách viết đều chấp nhận được. Đây là chỗ Rule không làm được.
+- Độ phức tạp **thấp–trung bình**: 4–7 phần, 1 bộ dữ liệu chung, các bước cố định theo thứ tự, không rẽ nhánh. Không cần AI tự quyết bước tiếp theo.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | Template Docs, deadline nội bộ sớm 2 ngày, mỗi phần kèm 3 dòng tóm tắt (số liệu chính, kết luận, nối với phần trước) | Nhóm chỉ gặp trễ hạn và sai format | Đã thử template + deadline sớm 1 ngày: vẫn trễ, vẫn quên áp dụng, insight vẫn rời rạc (PV) | **Dùng cho bước 0** |
+| **Rule** | Hàm vẽ/style file chung cho biểu đồ; bảng "Số liệu chính" + so khớp số; nhắc deadline tự động | Lỗi là ảnh mờ, sai màu, số lệch giữa các phần | Không phát hiện được kết luận mâu thuẫn hay đứt logic khi số vẫn đúng | **Dùng cho bước 1–2** |
+| **Workflow** | Rule kiểm số → AI liệt kê mâu thuẫn và chỗ đứt logic, có trích dẫn → người ghép duyệt, viết lại | Các bước cố định; AI chỉ làm phần đọc chéo và gợi ý | AI bỏ sót hoặc bịa mâu thuẫn; người ghép tin AI mà không kiểm | **Chọn** (AI chỉ ở bước 3) |
+| **Agent** | AI tự lấy các phần từ Drive/GitHub, tự chạy lại code, tự sửa biểu đồ, tự viết insight, tự nộp | Khi bước tiếp theo không đoán trước được | Quá nhiều quyền (repo, Drive, nộp bài); sai số liệu khó phát hiện; có thể vi phạm quy định môn học | Không chọn |
 
-**Mức chọn:**
+**Mức chọn:** Workflow, trong đó phần lớn các bước là No AI và Rule. AI chỉ làm 1 bước: đọc chéo cả report và liệt kê chỗ mâu thuẫn, chỗ đứt logic.
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Vì sao không chọn mức đơn giản hơn:** Người được phỏng vấn đã thử No AI (template chung, Docs chung + deadline sớm 1 ngày) và vẫn phải "ngồi viết lại toàn bộ phần insight". Rule (bảng số liệu, hàm vẽ chung) giải được ảnh và số lệch, nhưng không thấy được nhận xét "giải thích chưa đúng bản chất chỉ số" hay EDA và Model không nối nhau. Bằng chứng mới từ 1 người (bạn của Tuấn Anh) và report của Tuấn Anh, nên nhóm chỉ thêm AI ở 1 bước, và giữ phương án quay về No AI + Rule.
 
 ### 6.3. AI Canvas rút gọn
 
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| **Prediction** — AI dự đoán / tạo ra gì? | Danh sách cảnh báo: (a) số liệu/kết luận mâu thuẫn giữa các phần; (b) chỗ đứt logic EDA → Model → Insight; mỗi cảnh báo kèm trích dẫn đoạn gốc và gợi ý câu nối |
+| **Judgment** — con người cân nhắc, quyết định gì? | Người ghép quyết định cảnh báo nào đúng, chỗ nào cần trả lại thành viên sửa, insight cuối cùng viết thế nào |
+| **Action** — hành động cuối cùng là gì, ai làm? | Người ghép sửa report hoặc trả lại phần cho thành viên; người ghép xuất PDF và nộp |
+| **Outcome** — đo kết quả bằng gì? | Thời gian ghép; số chênh lệch số liệu còn sót khi nộp; tỉ lệ cảnh báo đúng |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Toàn bộ report (Google Docs) + bảng "Số liệu chính" + mục tiêu bài toán của đề. Có sẵn sau bước 2. Đề bài và dữ liệu môn học có thể có quy định riêng (giả định #6) |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Người ghép đánh dấu cảnh báo đúng/sai mỗi lần; nhận xét của giảng viên về tính nhất quán của report |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng: **Augment.** Người được phỏng vấn tự chạy lại code, tự viết lại insight và tự kiểm lần cuối "để đảm bảo kết luận trả lời đúng mục tiêu". Người ghép chịu trách nhiệm điểm của cả nhóm, nên cần tự duyệt. Lưu ý: nhóm chưa hỏi thẳng câu này, đây là suy ra từ hành vi; cần hỏi trong phỏng vấn tiếp theo.
+- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào: **Bỏ sót tệ hơn.** Sót một chênh lệch số liệu thì report nộp đi có kết luận mâu thuẫn, mất điểm cả nhóm. Báo nhầm chỉ tốn vài phút kiểm lại. Thiết kế: (1) bảng "Số liệu chính" (Rule) chạy trước AI, nên số lệch không phụ thuộc hoàn toàn vào AI; (2) prompt yêu cầu AI liệt kê rộng, chấp nhận báo nhầm; (3) mỗi cảnh báo phải có trích dẫn để người ghép kiểm nhanh.
 
 ---
 
@@ -253,29 +294,36 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Sinh viên phụ trách ghép report nhóm có phần phân tích dữ liệu (code, biểu đồ, metric) |
+| **Quy trình** | Thu các phần → đối chiếu số liệu → sửa format, biểu đồ → viết lại insight, đoạn nối → rà soát, xuất PDF, nộp |
+| **Bottleneck** | Đồng bộ số liệu, biểu đồ và viết lại insight cho nối tiếp logic: 3–4 tiếng/lần (PV); khoảng 80' (TA, ước lượng) |
+| **Impact** | 3–6 tiếng/lần dồn vào một người, sát deadline; rủi ro nộp report có kết luận mâu thuẫn |
+| **Success Metric** | (1) Thời gian ghép từ 180' / 5–6 tiếng xuống không quá 90', tự bấm giờ từng bước; (2) số chênh lệch số liệu còn sót khi nộp = 0, đếm bằng một lượt rà soát độc lập của 1 thành viên khác sau khi nộp; (3) số đoạn insight người ghép phải viết lại toàn bộ giảm ít nhất một nửa so với lần trước |
+| **Boundary** | AI không tự sửa file report, không đổi số liệu, không viết kết luận không có trong phần của thành viên. Người ghép kiểm mọi cảnh báo và duyệt trước khi nộp |
+| **AI intervention point** | Sau khi Rule đã kiểm số với bảng "Số liệu chính" (bước 2), trước khi người ghép viết lại insight (bước 4) |
+| **Mức chọn** | Workflow (No AI + Rule ở bước 0–2, AI ở bước 3) |
+| **Rủi ro & người kiểm tra** | AI bỏ sót mâu thuẫn, bịa mâu thuẫn, gợi ý câu nối sai ý thành viên → người ghép kiểm từng cảnh báo với đoạn gốc; thành viên viết phần đó xác nhận nếu insight bị viết lại |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| Actor | ... nhóm 4–7 người | Bỏ "4–7 người" | Phản biện: con số chưa có nguồn từ người được phỏng vấn |
+| Success Metric | Chỉ đo thời gian | Thêm số chênh lệch còn sót và số đoạn phải viết lại | Phản biện: nhanh hơn nhưng sót số lệch thì không đạt |
+| Boundary | Chỉ nói người ghép chịu trách nhiệm | Thêm giới hạn cụ thể cho AI | Sau khi chọn Workflow, cần nói rõ AI không được làm gì |
+| AI intervention point, Mức chọn, Rủi ro | — | Thêm | Trường mới của v1 |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
+Cách thử trước khi dùng thật: lấy 1 report cũ của Tuấn Anh, cố tình cài 3 chỗ số liệu lệch và 2 chỗ kết luận mâu thuẫn, rồi chấm danh sách cảnh báo của AI.
+
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Không bỏ sót | Nêu đủ 5/5 lỗi đã cài | Thiếu từ 1 lỗi đã cài trở lên |
+| 2 | Có trích dẫn đúng | Mỗi cảnh báo chỉ đúng phần và đoạn gốc | Cảnh báo không nói ở đâu, hoặc trích sai đoạn |
+| 3 | Không bịa | Mọi số và kết luận AI nhắc tới đều có trong input | Có số hoặc kết luận không có trong report |
+| 4 | Báo nhầm ở mức chấp nhận được | Không quá 5 cảnh báo sai trên một report | Quá nhiều cảnh báo sai, người ghép mất thời gian hơn tự đọc |
+| 5 | Chỉ gợi ý, không viết lại | Đầu ra là danh sách cảnh báo + gợi ý câu nối | AI viết lại cả đoạn insight hoặc cả report |
 
 ---
 
@@ -285,24 +333,29 @@ Vì sao:
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | TB | Pain có thật ở 2 người (TA và PV, 3–6 tiếng/lần). Nhưng bottleneck mới chỉ có 1 người phỏng vấn, lại là bạn của Tuấn Anh; chưa biết No AI + Rule đã đủ chưa |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Thấp | Người ghép chỉ đọc danh sách cảnh báo có trích dẫn; không học công cụ mới. Thành viên phải dùng hàm vẽ chung, có thể ngại thay đổi |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Thấp | Report nằm sẵn trên Google Docs; Gemini trong Docs và Gemini Notebook đã có (mục 3.3); style file matplotlib/seaborn nhóm tự viết được |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | TB | Chưa biết giảng viên có cho dùng AI khi làm report không (giả định #6). Gemini trong Docs cần gói đủ điều kiện. Người vận hành là người ghép, không tốn thêm người |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** Go, phạm vi nhỏ
 
-**Lý do:**
+**Lý do:** Không có rủi ro mức Cao. Hai rủi ro TB (Value, Viability) kiểm được trước và trong pilot mà không cần xây gì.
 
 **Nếu Go — pilot nhỏ nhất:**
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
-
-**Nếu No-Go — nên làm gì thay AI:**
+- Lần report nhóm kế tiếp của Tuấn Anh (hoặc của người được phỏng vấn, nếu đồng ý).
+- Không xây gì mới. Làm bước 0–2 (template, hàm vẽ chung, bảng "Số liệu chính") trước. Bấm giờ từng bước.
+- Ở bước 3, dùng Gemini Notebook hoặc một prompt chuẩn với report + bảng số liệu. Người ghép **vẫn tự rà soát như cũ**, rồi so danh sách mình tìm được với danh sách của AI và chấm theo 5 tiêu chí ở mục 7.
+- Trước pilot: hỏi giảng viên về việc dùng AI (giả định #6); phỏng vấn thêm 1–2 người ghép report không quen nhóm để kiểm bottleneck mới.
 
 **Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+
+- Nếu chỉ với bước 0–2 (No AI + Rule) mà thời gian ghép đã không quá 90' → không thêm AI, dừng ở mức Rule.
+- Nếu AI bỏ sót từ 1 chênh lệch số liệu mà người ghép tự tìm thấy, trong 2 lần chạy liên tiếp → bỏ bước 3, quay về No AI + Rule.
+- Nếu giảng viên không cho dùng AI khi làm report → No-Go cho phần AI, giữ No AI + Rule.
 
 ---
 
