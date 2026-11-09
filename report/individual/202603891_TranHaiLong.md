@@ -136,16 +136,16 @@ HIỆN TẠI — khoảng 120 phút/kỳ (ước tính)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
+| Pitch Problem Card | Pitch cả 3 card: công việc ngoài giờ lên lớp của giáo viên, đọc bài nghiên cứu, hộ kinh doanh tự kê khai thuế | Chủ đề đọc bài nghiên cứu vào shortlist; nhóm chọn #11 (ghép report nhóm) của Tuấn Anh |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Nhóm không có ai là giáo viên, CP4 phỏng vấn ai?"; "Đo 'đã nắm được bài' bằng cách nào?"; "Con số 120 phút/kỳ đo từ ai? Nhóm có phỏng vấn được chủ hộ kinh doanh thật không?" | Kết quả: nhóm loại card giáo viên và hộ kinh doanh vì khó phỏng vấn đúng người. Tôi đã sửa gì: |
+| Gom cluster / cây OST | Review phần cluster và cây OST | |
+| Chọn candidate problem | Review bảng chấm điểm và lý do chọn candidate | |
+| Kiểm chứng / research | Commit bản nháp báo cáo nhóm do thành viên khác soạn (1426d8e); rút gọn câu hỏi phỏng vấn còn 3 câu, có AI góp ý | 3 câu hỏi được dùng ở mục 3.1 báo cáo nhóm |
+| Quy trình nhóm | Review quy trình hiện tại và tương lai | |
+| Problem Statement | Review Problem Statement v0 và v1 | |
+| Mức can thiệp AI | Review phần so sánh 4 mức và AI Canvas | |
+| Quyết định | Review phần đánh giá 4 rủi ro và quyết định cuối | |
 
 ---
 
@@ -153,12 +153,12 @@ HIỆN TẠI — khoảng 120 phút/kỳ (ước tính)
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Dịch bảng scan sang tiếng Việt; gợi ý thêm vấn đề có giá trị cao, kèm nguồn | Tìm được số liệu có nguồn, ví dụ 3,08 triệu hộ kinh doanh đang hoạt động | Gợi ý "theo dõi việc sau họp" chỉ 1–3 giờ/tuần, chưa đủ giá trị; gợi ý "tìm thông tin khi làm việc" quá chung | Yêu cầu AI tìm lại theo mức giá trị của các vấn đề đã chọn; bỏ hai gợi ý đó, chọn vấn đề cụ thể hơn là hộ kinh doanh tự kê khai thuế |
+| CP2 Problem Card | Tìm số liệu, soạn nháp 3 card, ước tính số phút từng bước, phản biện card | Chỉ ra 45 phút/hồ sơ khá bình thường; tìm được số liệu TALIS 2024 của Việt Nam | Kết luận khoảng trống nằm ở chấm bài chỉ từ một con số; thêm nhiều nhãn rườm rà vào card | Bỏ kết luận về chấm bài khỏi tên vấn đề và giả thuyết; bỏ nhãn rườm rà; đổi lại top 3 theo giá trị |
+| CP4 Research | Góp ý câu hỏi phỏng vấn | Chỉ ra các câu hỏi làm lộ giả thuyết của nhóm | | |
+| CP5 Quy trình | Không dùng | | | |
+| CP5–6 Problem Statement | Không dùng | | | |
+| CP6 Mức can thiệp / quyết định | Không dùng | | | |
 
 ---
 
@@ -168,15 +168,27 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Tôi đã đọc lại top 3 problems của các bạn và thấy một số vấn đề thú vị.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Không, tôi không thấy nhóm bị solution-first.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có. Dòng "tìm thông tin khi làm việc" do AI viết, tôi đọc thấy vô nghĩa nên đã bỏ và đổi sang vấn đề khác.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Không, kết quả phỏng vấn không làm tôi bất ngờ.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Điều khó nhất là success metric.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Nếu làm lại, tôi sẽ phản biện các bạn nhiều hơn khi pitch và chấm điểm.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
