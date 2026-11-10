@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 | Trần Hải Long | 202603891 | Nhóm trưởng: fork repo, commit báo cáo nhóm, review CP3–CP6 | longhtr028 |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -54,3 +54,31 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### TranHaiLong-202603891
+
+**Phần việc phụ trách:**
+
+- Nhóm trưởng: fork repo chung, điền thông tin nhóm, gom bài lên `main`
+- CP3: pitch 3 Problem Card (#7 công việc ngoài giờ lên lớp của giáo viên, #8 đọc bài nghiên cứu trước seminar, #9 hộ kinh doanh tự kê khai thuế)
+- CP4: rút gọn câu hỏi phỏng vấn
+- CP3–CP6: review cluster, cây OST, bảng chấm điểm, quy trình, Problem Statement v0/v1, mức can thiệp AI và quyết định
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đóng góp 3/12 candidate; card #8 (đọc bài nghiên cứu) vào shortlist. Sau phản biện, nhóm loại card giáo viên và hộ kinh doanh vì khó phỏng vấn đúng người
+- Commit bản nháp báo cáo nhóm do Hải soạn (`1426d8e`)
+- Rút gọn câu hỏi phỏng vấn còn 3 câu, được dùng ở mục 3.1 báo cáo nhóm
+- Gom 4 báo cáo cá nhân và phần cá nhân trong `TEAM.md` lên `main`
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md`: mục 2.1 (dòng pitch #7–#9), mục 2.4 (lý do loại #9), mục 3.1 (câu hỏi phỏng vấn)
+- Báo cáo cá nhân: `report/individual/202603891_TranHaiLong.md`
+- Commit trên `main`: `1426d8e` (draft group report), `1d8ba68` (update basic info), `22dd774` (gom báo cáo cá nhân)
+- Commit trên nhánh `TranHaiLong-03891`: `8ae63cc` (thêm báo cáo cá nhân), `8f8f534` (CP1, CP2), `947e43b` (hoàn thiện báo cáo cá nhân)
+
+**Điều mình học được từ phần nhóm:**
+
+- Problem phải kiểm chứng được với đúng người trong thời gian làm bài: card giáo viên và hộ kinh doanh có impact lớn nhưng bị loại vì nhóm không phỏng vấn được actor thật
+- Gợi ý của AI cần được đọc lại kỹ: dòng "tìm thông tin khi làm việc" do AI viết quá chung nên phải bỏ
