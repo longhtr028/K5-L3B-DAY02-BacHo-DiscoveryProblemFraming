@@ -4,18 +4,18 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: BacHo
+- Candidate problem nhóm chọn (1 câu): *(đề xuất, chờ nhóm chốt)* Sinh viên phụ trách ghép report nhóm mất khoảng 3 tiếng sát deadline để thu, đọc, hỏi lại và sửa các phần của thành viên thành một report thống nhất
+- Quyết định cuối (Go / Not Yet / No-Go): *(đề xuất, chờ nhóm chốt)* Go, phạm vi nhỏ
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Trần Hải Long | 202603891 | Nhóm trưởng | longhtr028 |
+| 2 | Lê Danh Giang | 202603912 | | giangj |
+| 3 | Nguyễn Đức Hải | 2A202603899 | | hainguyen312 |
+| 4 | Trần Tuấn Anh | 2A202603909 | | Tanh0406 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -26,7 +26,7 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
+| CP4 — Kiểm chứng | Trần Tuấn Anh | | Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
 | CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | | | Problem Statement v0 |
