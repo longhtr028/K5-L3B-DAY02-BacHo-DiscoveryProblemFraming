@@ -1,9 +1,5 @@
 # Báo cáo cá nhân — 2A202603899_NguyenDucHai
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
-
 ## 1. Thông tin học viên
 
 - Họ tên: Nguyễn Đức Hải
@@ -27,15 +23,15 @@ Mình scan 10 problem, vượt mức tối thiểu 5, trải đủ 4 lăng kính
 | 5 | Lặp lại | Khi tới cuối tuần, tôi muốn biết các deadline của tuần sau ở các môn/lab, để không nộp trễ | Học viên | Deadline nằm rải ở LMS, group chat, email; 15 phút/tuần tổng hợp lại; đã từng suýt trễ 1 bài |
 | 6 | Tốn thời gian | Khi đọc một tài liệu/paper dài cho bài học, tôi muốn nắm được các ý chính và thuật ngữ, để kịp làm bài trong buổi lab | Học viên | Khoảng 50 phút/tài liệu, 2 tài liệu/tuần |
 | 7 | Pain từ người khác | Khi backend đổi API (tên field, format response) mà không báo trước, team FE muốn biết sớm thay đổi, để không phát hiện lỗi lúc QA hoặc demo | FE dev, BE dev, QA | Khoảng 2 lần/sprint, mỗi lần khoảng 45 phút debug mới ra nguyên nhân |
-| 8 | Cần đọc, tổng hợp nhiều thông tin | Khi UI chỉ lỗi trên một số trình duyệt/thiết bị, tôi muốn tìm ra nguyên nhân từ console, network log và bug report của QA, để sửa đúng chỗ | FE dev, QA, người dùng | Khoảng 40 phút/bug, khoảng 4 bug/tuần |
-| 9 | Lặp lại | Khi review pull request của đồng đội FE, tôi muốn biết nhanh thay đổi ảnh hưởng tới màn hình nào, để duyệt đúng hạn mà không lọt lỗi UI | FE team, reviewer | Khoảng 30 phút/PR, khoảng 4 PR/tuần |
+| 8 | Cần đọc, tổng hợp nhiều thông tin *(ý từ AI)* | Khi UI chỉ lỗi trên một số trình duyệt/thiết bị, tôi muốn tìm ra nguyên nhân từ console, network log và bug report của QA, để sửa đúng chỗ | FE dev, QA, người dùng | Khoảng 40 phút/bug, khoảng 4 bug/tuần |
+| 9 | Lặp lại *(ý từ AI)* | Khi review pull request của đồng đội FE, tôi muốn biết nhanh thay đổi ảnh hưởng tới màn hình nào, để duyệt đúng hạn mà không lọt lỗi UI | FE team, reviewer | Khoảng 30 phút/PR, khoảng 4 PR/tuần |
 | 10 | Cần đọc, tổng hợp nhiều thông tin | Khi muốn nâng version một thư viện trong project (ví dụ React), tôi muốn biết các thư viện khác (Tailwind, router, UI kit) phải lên version nào để tương thích, để code vẫn build và chạy được sau khi nâng | FE dev | Khoảng 2 giờ/lần, khoảng 1 lần/tháng; phải đọc docs/changelog của khoảng 4 gói trên web, thử cài đi cài lại vì xung đột version mới chạy được |
 
-**AI gợi ý thêm:** 
+**Nếu có dùng AI để gợi ý thêm:**
 
-Bỏ ý "lộ trình tự học machine learning" vì là mục tiêu cá nhân, khó vẽ quy trình và đo dấu hiệu cụ thể. 
-
-Bỏ ý "trợ lý quản lý toàn bộ việc học" vì quá rộng, không có quy trình thật và là solution trá hình.
+- Giữ 2 ý AI gợi ý: #8 (debug lỗi UI theo trình duyệt) và #9 (review PR của đồng đội). Đây là việc tôi làm thật ở vị trí FE; tôi viết lại bằng số liệu của mình.
+- Bỏ ý "lộ trình tự học machine learning" vì là mục tiêu cá nhân, khó vẽ quy trình và đo dấu hiệu cụ thể.
+- Bỏ ý "trợ lý quản lý toàn bộ việc học" vì quá rộng, không có quy trình thật và là solution trá hình.
 
 ---
 
@@ -53,18 +49,18 @@ Không chọn: #3 (tìm tin nhắn Discord) vì phụ thuộc công cụ chat, k
 
 ### Problem Card #1 — Kiểm tra yêu cầu nộp bài lab
 
-| Trường | Nội dung |
-|---|---|
-| Job Story | Khi bắt đầu một buổi lab mới, tôi muốn biết ngay đề yêu cầu nộp những file nào, đặt tên ra sao, để không bị trừ điểm vì sai cấu trúc repo |
-| Actor | Học viên K5 làm lab vừa cá nhân vừa nhóm, nộp qua GitHub, deadline 23h59 hoặc 11h59 hôm sau |
-| Thời điểm / bối cảnh | Đầu buổi lab (đọc đề) và ngay trước deadline (tự kiểm trước khi nộp) |
-| Quy trình hiện tại (3–7 bước) | 1. Mở repo, đọc README · 2. Đọc CHECKPOINTS + RUBRIC để biết phải nộp gì · 3. Đọc SUBMISSION, ghi lại tên file, cấu trúc thư mục · 4. Làm bài · 5. Trước khi nộp, dò lại từng mục rubric/checklist với file của mình · 6. Push và nộp link LMS |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5, tự dò lại rubric/checklist: khoảng 15 phút, phải mở qua lại 3–4 file, dễ sót mục khi đang vội trước deadline |
-| Impact (nếu không giải thì sao) | Khoảng 35 phút/lab × khoảng 3 lab/tuần = khoảng 105 phút/tuần; sai tên repo/file bị trừ 5 điểm, thiếu file nhóm thì phần nhóm bị 0 |
-| Success metric (baseline → target) | Thời gian tự kiểm bước 5: khoảng 15 phút → dưới 5 phút; số lỗi cấu trúc bị trừ điểm: giữ ở 0. Đo bằng tự bấm giờ 3 lab tới |
-| Phương án không dùng AI | Checklist cố định copy vào đầu báo cáo + script/GitHub Action kiểm tên file, file bắt buộc, chữ "MSSV_HoTen" còn sót |
-| Giả thuyết về AI (nếu có) | Có thể so nội dung báo cáo với rubric để chỉ ra mục còn trống/hời hợt; nhưng phần kiểm cấu trúc thì Rule là đủ |
-| Cảm nhận nhanh | Rule |
+| Trường                                    | Nội dung                                                                                                                                                                                                                                       |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Job Story                                 | Khi bắt đầu một buổi lab mới, tôi muốn biết ngay đề yêu cầu nộp những file nào, đặt tên ra sao, để không bị trừ điểm vì sai cấu trúc repo                                                                                                      |
+| Actor                                     | Học viên                                                                                                                                                                                                                                       |
+| Thời điểm / bối cảnh                      | Đầu buổi lab (đọc đề) và ngay trước deadline (tự kiểm trước khi nộp)                                                                                                                                                                           |
+| Quy trình hiện tại (3–7 bước)             | 1. Mở repo, đọc README · 2. Đọc CHECKPOINTS + RUBRIC để biết phải nộp gì · 3. Đọc SUBMISSION, ghi lại tên file, cấu trúc thư mục · 4. Làm bài · 5. Trước khi nộp, dò lại từng mục rubric/checklist với file của mình · 6. Push và nộp link LMS |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5, tự dò lại rubric/checklist: khoảng 15 phút, phải mở qua lại 3–4 file, dễ sót mục khi đang vội trước deadline                                                                                                                           |
+| Impact (nếu không giải thì sao)           | Khoảng 35 phút/lab × khoảng 3 lab/tuần = khoảng 105 phút/tuần; sai tên repo/file bị trừ 5 điểm, thiếu file nhóm thì phần nhóm bị 0                                                                                                             |
+| Success metric (baseline → target)        | Thời gian tự kiểm bước 5: khoảng 15 phút → dưới 5 phút; số lỗi cấu trúc bị trừ điểm: giữ ở 0. Đo bằng tự bấm giờ 3 lab tới                                                                                                                     |
+| Phương án không dùng AI                   | Checklist cố định copy vào đầu báo cáo + script/GitHub Action kiểm tên file, file bắt buộc, chữ "MSSV_HoTen" còn sót                                                                                                                           |
+| Giả thuyết về AI (nếu có)                 | Có thể so nội dung báo cáo với rubric để chỉ ra mục còn trống/hời hợt; nhưng phần kiểm cấu trúc thì Rule là đủ                                                                                                                                 |
+| Cảm nhận nhanh                            | Rule                                                                                                                                                                                                                                           |
 
 Quy trình nháp hiện tại:
 
@@ -130,7 +126,7 @@ HIỆN TẠI — khoảng 180 phút/màn hình
 
 - Card số: 1
 - Vì sao: cả lớp đều gặp nên nhóm dễ phỏng vấn bạn học ở CP4 bằng hành vi thật (lab gần nhất mất bao lâu để tự kiểm, có từng sửa tên file sát giờ không); quy trình ngắn, vừa sức một buổi lab.
-- Câu hỏi muốn nhóm phản biện: SUBMISSION.md đã có sẵn checklist, vậy pain còn lại thật sự nằm ở việc **đọc đề** hay ở việc **tự kiểm trước khi nộp**? Nếu chỉ là kiểm cấu trúc thì có cần gì hơn một script Rule không?
+- Câu hỏi muốn nhóm phản biện: SUBMISSION.md đã có sẵn checklist, vậy pain còn lại thật sự nằm ở việc **đọc đề** hay ở việc **tự kiểm trước khi nộp**?
 
 ### AI đã phản biện card thế nào
 
@@ -149,29 +145,30 @@ HIỆN TẠI — khoảng 180 phút/màn hình
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch card #1: kiểm tra yêu cầu nộp bài lab (Rule) | Vào shortlist, xếp thứ 2 (30 điểm); nhóm không chọn vì bằng chứng mới là ước lượng của tôi và SUBMISSION.md đã có checklist |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt cho Giang (card #4, gom token và chi phí API AI): "Lần gần nhất bạn thật sự vượt ngân sách là khi nào?" | Giang nhận ra tần suất vượt ngân sách thấp; nhóm loại #4 vì mới có 1 người gặp và các nhà cung cấp đã có usage dashboard |
+| Nhận phản biện | Câu hỏi tôi nhận được từ Tuấn Anh (card #1, đọc đề và tự kiểm bài lab): "SUBMISSION.md đã có checklist, vậy pain còn lại nằm ở đọc đề hay ở tự kiểm?" | Tôi đã sửa gì: đồng ý phần kiểm cấu trúc chỉ cần checklist hoặc script (Rule); không giữ #1 cho vòng chọn cuối và ủng hộ chuyển sang #11 vì có số liệu hành vi thật |
+| Gom cluster / cây OST | Soạn bản nháp báo cáo nhóm phần CP3–CP4 (Long commit ở `1426d8e`): 4 cluster (A–D) cho 12 candidate và cây OST với outcome "giảm thời gian người ghép report cần để có bản thống nhất" | Nhóm dùng làm bản nháp mục 2.2–2.3; gạch 3 ý là solution đội lốt opportunity (template, bot nhắc deadline, AI tóm tắt) |
+| Chọn candidate problem | Ban đầu đề xuất #1 (bài của tôi); khi so bằng chứng thì đề xuất đổi sang #11 (ghép report nhóm) | #11 được 33 điểm, cao nhất bảng chấm; ghi lại bất đồng ở mục 2.4 |
+| Kiểm chứng / research | Soạn nháp câu hỏi phỏng vấn theo Mom Test (Long rút gọn còn 3 câu; Tuấn Anh hỏi một DA qua tin nhắn); tổng hợp câu trả lời vào bảng snapshot, bảng tín hiệu xác nhận/phản bác và phần "Nhóm đã sửa problem" ở mục 3.2; research 3 công cụ, tự mở từng link | Phỏng vấn phản bác giả định #2: bottleneck là đồng bộ số liệu và viết lại insight, không phải đọc và hỏi lại. Nhóm sửa bottleneck và thu hẹp actor |
+| Quy trình nhóm | Soạn nháp quy trình hiện tại (gộp card của Tuấn Anh và phỏng vấn) và quy trình tương lai | Mục 4 báo cáo nhóm; quy trình tương lai đẩy phần lớn bước về No AI và Rule |
+| Problem Statement | Soạn nháp v0 và v1, bảng thay đổi v0 → v1 | Mục 5 và 7; v1 thêm metric chất lượng (số chênh lệch số liệu còn sót) |
+| Mức can thiệp AI | Soạn bảng 4 mức, AI Canvas, câu hỏi PAIR; yêu cầu thu hẹp bước AI chỉ còn liệt kê chỗ kết luận mâu thuẫn, không viết hay gợi ý câu chữ | Mục 6: chọn Workflow nhưng AI chỉ ở 1 bước |
+| Quyết định | Đề xuất "Go, phạm vi nhỏ" với pilot không xây gì và 3 ngưỡng dừng | Mục 8, đang chờ nhóm chốt |
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | Gợi ý problem theo 4 lăng kính, viết lại dạng Job Story | Nhắc được lăng kính còn thiếu (debug UI, review PR) | Số liệu chỉ là ước lượng, không phải dấu hiệu thật; vài ý chung chung | *(Hải điền: đã sửa số / bỏ dòng nào)* |
-| CP2 Problem Card | Đóng vai PM hoài nghi phản biện card #1 | Chỉ ra actor quá chung, bottleneck là cả cụm bước, Rule có thể đủ | Ban đầu gợi ý kiểm nội dung báo cáo bằng AI mà chưa hỏi checklist có sẵn chưa | Đổi cảm nhận nhanh sang Rule, chốt bottleneck là bước 5, thêm cách đo baseline |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| Checkpoint                     | Tôi dùng AI để làm gì?                                                                                                    | AI hữu ích ở đâu?                                                 | AI sai hoặc hời hợt ở đâu?                                                                                                                           | Tôi sửa gì bằng nhận định của mình?                                                                                                       |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| CP1 Scan                       | Gợi ý problem #8, #9                                                                                                      | Nhắc được lăng kính còn thiếu (debug UI, review PR)               | Số liệu ghi dạng khoảng ("45–60 phút"), nghe như ước lượng chung chứ không phải trải nghiệm của tôi                                                  | Đổi mọi khoảng thành một con số tôi nhớ được ("khoảng 50 phút"); tự thêm #10 (nâng version thư viện) từ chuyện tôi gặp thật               |
+| CP2 Problem Card               | Đóng vai PM hoài nghi phản biện card #1                                                                                   | Chỉ ra actor quá chung, bottleneck là cả cụm bước, Rule có thể đủ | Ban đầu gợi ý kiểm nội dung báo cáo bằng AI mà chưa hỏi checklist có sẵn chưa                                                                        | Đổi cảm nhận nhanh sang Rule, chốt bottleneck là bước 5, thêm cách đo baseline                                                            |
+| CP3 Hội tụ                     | Không dùng AI                                                                                                             | _                                                                 | _                                                                                                                                                    | _                                                                                                                                         |
+| CP4 Research                   | Chỉ dùng cho phần research: tìm công cụ đã có giải được bước nào trong quy trình ghép report. Không dùng AI cho phỏng vấn | Đưa ra Google Docs tabs, Gemini trong Docs, NotebookLM, kèm link  | Đưa link NotebookLM nhưng trang đã đổi tên thành Gemini Notebook; mô tả công cụ lạc quan, không nói Gemini trong Docs cần gói tài khoản đủ điều kiện | Tự mở từng link để kiểm; sửa tên công cụ; thêm cột "Khoảng trống / rủi ro" (cần gói Workspace, phải nạp lại nguồn khi thành viên sửa bài) |
+| CP5 Quy trình                  | Không dùng AI                                                                                                             | _                                                                 | _                                                                                                                                                    | _                                                                                                                                         |
+| CP5–6 Problem Statement        | Phản biện Problem Statement v0 theo prompt ở worksheet (mục 5 báo cáo nhóm)                                               | Chỉ ra metric chỉ đo tốc độ, baseline 2 nguồn chênh nhau gấp 2    | Phần phản biện là AI tự viết rồi tự đồng ý                                                                                                           | Đánh dấu phản biện là nháp của AI để nhóm tự quyết đồng ý hay không                                                                       |
+| CP6 Mức can thiệp / quyết định | Không dùng AI                                                                                                             | _                                                                 | _                                                                                                                                                    | _                                                                                                                                         |
 
 ---
 
@@ -181,20 +178,39 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+**Tôi đã đọc top3 problems của các bạn khác và thấy một vài vấn đề hiện hữu hàng ngày như dùng map, ghép report,... rất nhiều người gặp phải**
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+**Tôi thấy nhóm không bị 'solution-first'**
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+**Tôi có đổi ý sau khi bị phản biện: Khi Tuấn Anh hỏi "Subbmission.md đã có checklist…", tôi thấy problem của mình có phần chưa hợp lý và chấp nhận bỏ card của chính mình?**
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Không, kết quả phỏng vấn không làm tôi bất ngờ.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+**Điều khó nhất là viết sao cho không lẫn giải pháp**
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+**Tôi sẽ đặt thêm câu hỏi phần pitch**
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Tóm lại, actor của nhóm là sinh viên ghép report có phân tích dữ liệu, với bottleneck là đồng bộ số liệu, biểu đồ và viết lại insight (3–4 tiếng). Metric là thời gian ghép target không quá 90 phút. Boundary là AI không tự sửa file, không đổi số, không viết insight. Mức can thiệp là Workflow, vì No AI + Rule không bắt được kết luận mâu thuẫn . Quyết định là Go phạm vi nhỏ, pilot ở lần report kế tiếp của tôi, kèm ba ngưỡng dừng: No AI + Rule đã đủ thì không thêm AI, AI bỏ sót hai lần liên tiếp thì bỏ bước AI, và giảng viên không cho dùng AI thì No-Go phần AI.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Đề bài và hướng dẫn: [docs/01-worksheet.md](../../docs/01-worksheet.md), bài mẫu [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md), [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)
+- Alan Klement, Intercom — Job Stories: https://www.intercom.com/blog/accidentally-invented-job-stories/
+- Rob Fitzpatrick — The Mom Test: https://www.momtestbook.com/
+- Teresa Torres — Opportunity Solution Trees: https://www.producttalk.org/opportunity-solution-trees/
+- Anthropic — Building effective agents: https://www.anthropic.com/research/building-effective-agents
+- Báo cáo nhóm: [report/team/group_report.md](../team/group_report.md)
