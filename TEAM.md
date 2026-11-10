@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Trần Hải Long | 202603891 | Nhóm trưởng: fork repo, commit báo cáo nhóm, review CP3–CP6 | longhtr028 |
-| 2 | Lê Danh Giang | 202603912 | Phản biện, research | giangj |
+| 2 | Lê Danh Giang | 202603912 | Người phản biện, phụ trách research | giangj |
 | 3 | Nguyễn Đức Hải | 2A202603899 | Soạn bản nháp báo cáo nhóm (CP3–CP6), research, tổng hợp kết quả phỏng vấn | hainguyen312 |
 | 4 | Trần Tuấn Anh | 2A202603909 | Phụ trách kiểm chứng (phỏng vấn), cung cấp candidate được chọn | Tanh0406 |
 
